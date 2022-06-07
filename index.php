@@ -20,7 +20,7 @@ foreach ($games->JOGOS as $game) {
         $results[] = $game;
     }
 }
-for ($a = count($results) - 1; $a >= count($results)-lastGames; $a--) {
+for ($a = count($results) - 1; $a >= count($results)-$lastGames; $a--) {
     $lastResults[] = $results[$a];
 }
 print_r($lastResults);
