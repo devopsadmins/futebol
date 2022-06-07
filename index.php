@@ -24,3 +24,4 @@ for ($a = count($results) - 1; $a >= count($results)-lastGames; $a--) {
     $lastResults[] = $results[$a];
 }
 print_r($lastResults);
+ 
